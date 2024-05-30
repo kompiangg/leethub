@@ -13,7 +13,7 @@ func longestPalindrome(s string) string {
 func isPalindrom(str string) bool {
     strLen := len(str)
     
-    for i := 0; i < strLen/2; i++ {
+    for i := 0; i < strLen; i++ {
         if str[i] != str[strLen - i - 1] {
             return false
         }
